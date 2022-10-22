@@ -1,0 +1,15 @@
+C:\JS\GB\C#\Examples\Ex_002_HelloUser\bin\Debug\net6.0\Ex_002_HelloUser.exe
+C:\JS\GB\C#\Examples\Ex_002_HelloUser\bin\Debug\net6.0\Ex_002_HelloUser.deps.json
+C:\JS\GB\C#\Examples\Ex_002_HelloUser\bin\Debug\net6.0\Ex_002_HelloUser.runtimeconfig.json
+C:\JS\GB\C#\Examples\Ex_002_HelloUser\bin\Debug\net6.0\Ex_002_HelloUser.dll
+C:\JS\GB\C#\Examples\Ex_002_HelloUser\bin\Debug\net6.0\Ex_002_HelloUser.pdb
+C:\JS\GB\C#\Examples\Ex_002_HelloUser\obj\Debug\net6.0\Ex_002_HelloUser.csproj.AssemblyReference.cache
+C:\JS\GB\C#\Examples\Ex_002_HelloUser\obj\Debug\net6.0\Ex_002_HelloUser.GeneratedMSBuildEditorConfig.editorconfig
+C:\JS\GB\C#\Examples\Ex_002_HelloUser\obj\Debug\net6.0\Ex_002_HelloUser.AssemblyInfoInputs.cache
+C:\JS\GB\C#\Examples\Ex_002_HelloUser\obj\Debug\net6.0\Ex_002_HelloUser.AssemblyInfo.cs
+C:\JS\GB\C#\Examples\Ex_002_HelloUser\obj\Debug\net6.0\Ex_002_HelloUser.csproj.CoreCompileInputs.cache
+C:\JS\GB\C#\Examples\Ex_002_HelloUser\obj\Debug\net6.0\Ex_002_HelloUser.dll
+C:\JS\GB\C#\Examples\Ex_002_HelloUser\obj\Debug\net6.0\refint\Ex_002_HelloUser.dll
+C:\JS\GB\C#\Examples\Ex_002_HelloUser\obj\Debug\net6.0\Ex_002_HelloUser.pdb
+C:\JS\GB\C#\Examples\Ex_002_HelloUser\obj\Debug\net6.0\Ex_002_HelloUser.genruntimeconfig.cache
+C:\JS\GB\C#\Examples\Ex_002_HelloUser\obj\Debug\net6.0\ref\Ex_002_HelloUser.dll
