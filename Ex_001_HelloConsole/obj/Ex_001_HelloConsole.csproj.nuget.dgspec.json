@@ -10,15 +10,18 @@
         "projectUniqueName": "C:\\JS\\GB\\C#\\Examples\\Ex_001_HelloConsole\\Ex_001_HelloConsole.csproj",
         "projectName": "Ex_001_HelloConsole",
         "projectPath": "C:\\JS\\GB\\C#\\Examples\\Ex_001_HelloConsole\\Ex_001_HelloConsole.csproj",
-        "packagesPath": "C:\\Users\\LevitD\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\diml7\\.nuget\\packages\\",
         "outputPath": "C:\\JS\\GB\\C#\\Examples\\Ex_001_HelloConsole\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LevitD\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\diml7\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
