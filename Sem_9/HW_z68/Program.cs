@@ -22,10 +22,10 @@ catch (FormatException)
 {
     Write("Ожидалось число! Ввели непонять что!");
 }
-/*catch
+catch
 {
     Write("Ошибка выполнения!");
-}*/
+}
 
 decimal Akkernan(decimal m, decimal n)
 {
@@ -33,5 +33,4 @@ decimal Akkernan(decimal m, decimal n)
     if (n ==0 && m>0) return Akkernan(m-1,1);
     if (m>0 && n>0) return Akkernan(m-1, Akkernan(m,n-1));
     else return 0;
-
 }
