@@ -11,7 +11,8 @@ try
 {
     Write("Введите число N: ");
     int N = int.Parse(ReadLine());
-    WriteLine(SumNumber(N,0)); 
+    WriteLine(SumNumber(N, 0));
+    WriteLine(Sum(N)); //От преподавателя
 
 }
 catch (OverflowException)
@@ -30,5 +31,11 @@ catch
 int SumNumber(int N, int sum)
 {
     if (N == 0) return sum;
-    return SumNumber(N/10, sum+N%10);
+    return SumNumber(N / 10, sum + N % 10);
+}
+
+int Sum(int number)
+{
+    if (number == 0) return 0;
+    return (number % 10 + Sum(number / 10));
 }
