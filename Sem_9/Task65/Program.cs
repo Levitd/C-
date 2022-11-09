@@ -6,7 +6,8 @@ using System;
 using static System.Console;
 using System.Data;
 
-Clear();
+Clear(); 
+
 try
 {
     Write("Вывести вcе натуральные числа в интервале от М до N. Введите М и N через пробел: ");
