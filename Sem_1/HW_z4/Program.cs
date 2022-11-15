@@ -1,17 +1,18 @@
 ﻿// Задача 4. Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 
 using System;
+using static System.Console;
 
-Console.Clear();
+Clear();
 
-Console.Write("Введите Первое число: ");
-int number1 = int.Parse(Console.ReadLine());
+Write("Введите Первое число: ");
+int number1 = Convert.ToInt32(ReadLine());
 
-Console.Write("Введите Второе число: ");
-int number2 = int.Parse(Console.ReadLine());
+Write("Введите Второе число: ");
+int number2 = Convert.ToInt32(ReadLine());
 
 Console.Write("Введите Третье число: ");
-int number3 = int.Parse(Console.ReadLine());
+int number3 = Convert.ToInt32(ReadLine());
 
 int max;
 
@@ -32,5 +33,5 @@ if (number3 > max)
     max = number3;
 }
 
-Console.WriteLine($"Максимальное из введенных чисел: {max}");
+WriteLine($"Максимальное из введенных чисел: {max}");
 

@@ -1,6 +1,6 @@
 ﻿Console.Clear();
 
-Console.Write("Введите Числовое обозначение дня недели: ");
+Convert.ToInt32("Введите Числовое обозначение дня недели: ");
 int number = int.Parse(Console.ReadLine());
 string dayOfWeek = "";
 
