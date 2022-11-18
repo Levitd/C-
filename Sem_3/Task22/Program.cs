@@ -8,15 +8,9 @@ Clear();
 try
 {
     Write("Введите число больше 0: ");
-    int N = int.Parse(ReadLine());
-
-    string powN =  "";
-
-    for (int i=1; i<=N; i++){
-        powN = powN + ((powN!="") ? ", " :"") +Math.Pow(i,2);
-    }
-
-     WriteLine($"{powN}");
+    int N = Convert.ToInt32(ReadLine());
+    printPow(N);
+    
 }
 catch (OverflowException)
 {
@@ -27,3 +21,13 @@ catch (FormatException)
     Console.Write("Ожидалось число! Ввели непонять что!");
 }
 
+void printPow (int num) {
+    string powN =  "";
+
+    for (int i=1; i<=num; i++){
+        powN = powN + ((powN!="") ? ", " :"") +Math.Pow(i,2);
+    }
+
+     WriteLine($"{num}-> {powN}.");
+}
+//$("\b\b") - \b удаляет 1 символ

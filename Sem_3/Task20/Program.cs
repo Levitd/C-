@@ -1,7 +1,7 @@
-﻿using System.Text.RegularExpressions;
-//Задача 20
+﻿//Задача 20
 using System;
 using static System.Console;
+using System.Text.RegularExpressions;
 
 Clear();
 
@@ -9,17 +9,17 @@ Clear();
 try
 {
     Write("Введите координту Х первой точки: ");
-    int X1 = int.Parse(ReadLine());
+    int X1 = Convert.ToInt32(ReadLine());
     Write("Введите координту Y первой точки: ");
-    int Y1 = int.Parse(ReadLine());
+    int Y1 = Convert.ToInt32(ReadLine());
     Write("Введите координту Х второй точки: ");
-    int X2 = int.Parse(ReadLine());
+    int X2 = Convert.ToInt32(ReadLine());
     Write("Введите координту Y второй точки: ");
-    int Y2 = int.Parse(ReadLine());
+    int Y2 = Convert.ToInt32(ReadLine());
 
-    double longXY =  Math.Round( Math.Sqrt(Math.Pow(X1-X2,2)+Math.Pow(Y1-Y2,2)), 6);
+    double longXY = longLine(X1,X2,Y1,Y2);
 
-     WriteLine($"Расстояние между точками X и Y равно: {longXY:f2}");
+    WriteLine($"Расстояние между точками X и Y равно: {longXY:f3}");
 }
 catch (OverflowException)
 {
@@ -30,3 +30,7 @@ catch (FormatException)
     Console.Write("Ожидалось число! Ввели непонять что!");
 }
 
+double longLine(int x1, int x2, int y1, int y2)
+{
+    return Math.Round(Math.Sqrt(Math.Pow(x1 - x2, 2) + Math.Pow(y1 - y2, 2)), 3);
+}
